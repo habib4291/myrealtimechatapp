@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(to left,#fff 80%,#c3f5ff);
+    font-family: 'Rubik', sans-serif;
+  }
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px; 
+      border: none;
+      border-bottom: 2px solid #854fee;
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical ;
+      outline: none;
+    }
+    input[type=email] {
+        width: 100%;
+        padding: 12px; 
+        border: none;
+        border-bottom: 2px solid #854fee;
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical ;
+        outline: none;
+      }
+      input[type=password] {
+        width: 100%;
+        padding: 12px; 
+        border: none;
+        border-bottom: 2px solid #854fee;
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical ;
+        outline: none;
+      }
+    input[type=submit] {
+      background-color:  #854fee;
+      color: white;
+      padding: 12px 180px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      letter-spacing: 1px;
+    }
+    
+    
+    input[type=submit]:hover {
+      background-image: linear-gradient(#8d98e3 40%,#854fee 60%);
+      letter-spacing: 1px;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: rgba(253, 247, 247, 0.1);
+      padding: 20px;
+      margin: 100px;
+      width: 400px;
+      height: auto;
+      margin-left: auto;
+      margin-top: 80px;
+      overflow:auto;
+      
+      
+    }
+    .contactus{
+        margin-left: 155px;
+        font-weight: 900;
+        border-bottom: 2px solid #854fee;
+        width: 110px;
+        height: 30px;
+        margin-bottom: 10px;
+       
+    }
+    #log{
+      display: none;
+    }
+    #btnlog{
+      border:none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-image:linear-gradient(#8d98e3 40%,#854fee 60%);
+      letter-spacing: 1px;
+    }
+    #btnlog2{
+      border:none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-image:linear-gradient(#8d98e3 40%,#854fee 60%);
+      letter-spacing: 1px;
+      display: none;
+    }
